@@ -16,8 +16,8 @@ from contextlib import asynccontextmanager
 import numpy as np
 import tensorflow as tf
 
-from models_loader import registry
-from schemas import (
+from api.models_loader import registry
+from api.schemas import (
     BalancePredictionRequest, BalancePredictionResponse,
     BudgetOptimizationRequest, BudgetOptimizationResponse, BudgetAllocation,
     UserSegmentRequest, UserSegmentResponse,
